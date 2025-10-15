@@ -1,1 +1,7 @@
-pip install pandas scipy plotly-express lightgbm scikit-learn numpy shap
+pandas 
+scipy 
+plotly-express 
+lightgbm 
+scikit-learn 
+numpy 
+shap

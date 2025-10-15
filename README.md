@@ -22,7 +22,7 @@
 - test preparation course 未受講の生徒 → 学校内での受講推奨施策や案内資料に活用可能
 
 ## 7  再現手順
-- Requirements.txt に必要ライブラリを記載（pandas scipy plotly-express lightgbm など）
+- requirements.txt に必要ライブラリを記載（pandas scipy plotly-express lightgbm など）
   
 ## 8  成果・効果
 - テスト準備講座（test preparation course）の有無で統計的に有意な差を確認（p = 1.5e-08）
