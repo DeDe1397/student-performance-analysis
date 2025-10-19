@@ -33,3 +33,6 @@
 ## 9  課題と今後の展望
 - 強相関する特徴量（reading, writing）の扱いを調整することで性能の向上が期待できる
 - 今後は回帰モデルや因果推論を用いて test preparation course の効果を厳密に検証
+
+## 10  Quiita記事 
+https://qiita.com/c62323440/items/f0d849158c7d5345f2fb
