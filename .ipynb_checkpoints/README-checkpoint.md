@@ -38,7 +38,7 @@ jupyter notebook StudentsPerformance.ipynb
 ## 8  成果・効果
 - テスト準備講座（test preparation course）の有無で統計的に有意な差を確認（p = 1.5e-08）
 → 読解力（reading）が数学に強い影響を与えていることを発見
-- LightGBM による予測：MAE = 4.60, RMSE = 6.1
+- LightGBM による予測：**MAE=4.60 / RMSE=6.1**
 → 平均点66点に対して ±6点程度の誤差であり、事前に学習支援対象者を抽出を一定程度可能
 
 ## 9  課題と今後の展望
