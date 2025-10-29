@@ -1,3 +1,9 @@
+教育データ（Kaggle）を用いて学習成果を分析し、LightGBM＋SHAPで指導施策に繋がる示唆を抽出。
+
+- t検定で有意差確認（prep course の効果）
+- 予測精度：MAE 4.60 / RMSE 6.1（平均66点に対し±6点） 
+- SHAPで重要因子（writing, prep course）を可視化
+
 ## 1  課題
 - 生徒情報と数学の成績の関係を分析し、学習支援に向けた改善施策の仮説を提示する
 
@@ -23,7 +29,12 @@
 
 ## 7  再現手順
 - requirements.txt に必要ライブラリを記載（pandas scipy plotly-express lightgbm など）
-  
+
+```bash
+pip install -r requirements.txt
+jupyter notebook StudentsPerformance.ipynb
+```
+
 ## 8  成果・効果
 - テスト準備講座（test preparation course）の有無で統計的に有意な差を確認（p = 1.5e-08）
 → 読解力（reading）が数学に強い影響を与えていることを発見
