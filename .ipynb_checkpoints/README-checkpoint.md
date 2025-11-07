@@ -28,7 +28,7 @@
 - test preparation course 未受講の生徒 → 学校内での受講推奨施策や案内資料に活用可能
 
 ## 7  再現手順
-- requirements.txt に必要ライブラリを記載（pandas scipy plotly-express lightgbm など）
+- requirements.txt に必要ライブラリを記載（pandas scipy plotly-express lightgbm random_state=42 など）
 
 ```bash
 pip install -r requirements.txt
@@ -45,5 +45,5 @@ jupyter notebook StudentsPerformance.ipynb
 - 強相関する特徴量（reading, writing）の扱いを調整することで性能の向上が期待できる
 - 今後は回帰モデルや因果推論を用いて test preparation course の効果を厳密に検証
 
-## 10  Quiita記事 
+## 10  Qiita記事 
 https://qiita.com/c62323440/items/f0d849158c7d5345f2fb
